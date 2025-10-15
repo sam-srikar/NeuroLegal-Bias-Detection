@@ -1,6 +1,15 @@
 # 🧠 NeuroLegal Bias Detection Tool
 
 ### NLP-based Fairness Audit on Legal Texts — *Python • scikit-learn • Pandas • Fairlearn*
+---
+
+## 🏷️ Badges 
+```
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-yellow.svg)]()
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-orange.svg)]()
+[![HuggingFace-Space](https://img.shields.io/badge/Demo-HuggingFace-black.svg)]()
+```
 
 ---
 
@@ -131,18 +140,6 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
-## 🏷️ Badges (copy to top of README)
-
-```
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-yellow.svg)]()
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-orange.svg)]()
-[![HuggingFace-Space](https://img.shields.io/badge/Demo-HuggingFace-black.svg)]()
-```
-
----
-
-**Developed by:** *<Your Name>*
-**Mentored by:** *<Mentor’s Name, if applicable>*
+**Developed by:** *<Samhitha Srikar>*
 📍 *Sammamish, WA, USA*
 🗓️ *October 2024 – Present*
