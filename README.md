@@ -1,9 +1,9 @@
-# 🧠 NeuroLegal Bias Detection Tool
+NeuroLegal Bias Detection Tool
 
 ### NLP-based Fairness Audit on Legal Texts — *Python • scikit-learn • Pandas • Fairlearn*
 ---
 
-## 🏷️ Badges 
+Badges 
 ```
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-yellow.svg)]()
@@ -13,13 +13,13 @@
 
 ---
 
-## 🔍 Overview
+Overview
 
 The **NeuroLegal Bias Detection Tool** is a reproducible NLP pipeline for detecting and mitigating bias in text-based legal decision models. It analyzes over 2,000 public legal cases, measures disparities across demographic groups, and applies fairness metrics to reduce misclassification bias.
 
 ---
 
-## 🚀 Features
+Features
 
 * **NLP Bias Detection**: TF‑IDF + Logistic Regression model for case outcome prediction.
 * **Fairness Auditing**: Computes TPR/FPR/Positive Rate per group (race, gender) and overall fairness gaps.
@@ -29,7 +29,7 @@ The **NeuroLegal Bias Detection Tool** is a reproducible NLP pipeline for detect
 
 ---
 
-## 🧰 Tech Stack
+Tech Stack
 
 * **Languages:** Python 3.10+
 * **Libraries:** `pandas`, `numpy`, `scikit-learn`, `fairlearn`, `matplotlib`
@@ -37,7 +37,7 @@ The **NeuroLegal Bias Detection Tool** is a reproducible NLP pipeline for detect
 
 ---
 
-## ⚙️ Installation & Setup
+Installation & Setup
 
 ```bash
 # Clone this repo
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Run the Pipeline
+Run the Pipeline
 
 ```bash
 # Prepare dataset
@@ -74,7 +74,7 @@ python -m src.viz --config configs/base.yaml
 
 ---
 
-## 📊 Outputs
+Outputs
 
 * 📈 **`reports/figs/`** — Fairness and performance plots
 * 🧾 **`reports/model_card.md`** — Model card (metrics, bias findings)
@@ -83,7 +83,7 @@ python -m src.viz --config configs/base.yaml
 
 ---
 
-## 🧮 Example Results
+Example Results
 
 | Metric                       | Baseline | Mitigated | Δ Improvement |
 | :--------------------------- | :------: | :-------: | :-----------: |
@@ -93,7 +93,7 @@ python -m src.viz --config configs/base.yaml
 
 ---
 
-## 🌐 Deploy as a Demo
+Deploy as a Demo
 
 To make your project interactive:
 
@@ -106,14 +106,14 @@ Example Space name: `@<username>/neurolegal-bias-demo`
 
 ---
 
-## 🧾 Documentation
+Documentation
 
 * **[Model Card](reports/model_card.md)** — metrics, bias findings, and limitations.
 * **[Datasheet](reports/datasheet.md)** — data provenance and collection details.
 
 ---
 
-## 🧠 Ethics & Limitations
+Ethics & Limitations
 
 * Labels in public datasets may encode systemic bias.
 * Results should not be used for real legal decisions.
@@ -121,13 +121,13 @@ Example Space name: `@<username>/neurolegal-bias-demo`
 
 ---
 
-## 🪪 License
+License
 
 This project is released under the [MIT License](LICENSE).
 
 ---
 
-## 💡 Citation
+Citation
 
 ```bibtex
 @software{neurolegal_bias_detection,
