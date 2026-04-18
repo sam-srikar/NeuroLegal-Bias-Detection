@@ -131,10 +131,10 @@ Citation
 
 ```bibtex
 @software{neurolegal_bias_detection,
-  author  = {<Your Name>},
+  author  = Samhitha Srikar,
   title   = {NeuroLegal Bias Detection Tool},
   year    = {2025},
-  url     = {https://github.com/<your-username>/neurolegal-bias},
+  url     = {https://github.com/sam-srikar/neurolegal-bias},
 }
 ```
 
